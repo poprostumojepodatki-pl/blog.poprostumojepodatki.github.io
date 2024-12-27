@@ -1,0 +1,51 @@
+# Site
+name: "Blog PoProstuMojePodatki.pl"
+title: "Blog PoProstuMojePodatki.pl"
+description: "Miejsce gdzie dzielimy się refleksjami na temat giełdy, inwestowania oraz rozliczania podatków kapitałowych"
+logo: "assets/images/logo.webp"
+favicon: "assets/images/logo.webp"
+baseurl: ""
+url: https://blog.poprostumojepodatki.pl
+google_analytics: 'xxx'
+#disqus: 'demowebsite'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  szymon:
+    name: Szymon
+    display_name: Szymon
+    avatar: 'assets/images/avatar.webp'
+    email: szymon@poprostumojepodatki.pl
+    description: "Analityk finansowy, inwestor indywidualny, szkolenowiec."
+  krzysztof:
+    name: Krzysztof
+    display_name: Krzysztof    
+    avatar: 'assets/images/avatar.webp'
+    email: krzysztof@poprostumojepodatki.pl
+    description: "Inwestor indywidualny, CEO w Iterative Engineering, firmy stojącej za projektem Po prostu Moje Podatki."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
