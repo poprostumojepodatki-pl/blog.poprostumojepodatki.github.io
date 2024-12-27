@@ -2,16 +2,15 @@
 layout: post
 title:  "Bogactwo według Trumpa?"
 author: szymon
-categories: [ aplikacja, informacje ]
-tags: [tutoriale, poprostumojepodatki.pl]
+categories: [ kategoria1, informacje ]
+tags: [tag1, poprostumojepodatki.pl]
 image: "assets/images/bogactwo-wedlug-trumpa/1.png"
 description: "Bogactwo według Trumpa?"
-featured: true
 ---
 
 ### Bogactwo według Trumpa?
 
-**1. Szybkość i wygoda** 
+**11. Szybkość i wygoda** 
 Zapomnij o czasochłonnym ręcznym przeliczaniu podatków. Aplikacja wykonuje pracę za Ciebie w zaledwie kilka minut.
 
 **2. Obsługa różnorodnych instrumentów finansowych**
